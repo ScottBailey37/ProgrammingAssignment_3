@@ -33,7 +33,7 @@ namespace ProgrammingAssignment_3_CSIS209
             // Initialize array to tally results of dice sum
             // NOTE: The array length is dynamic. It will change based upon the variable 'upper', 
             //       which is set for the random number generator's upper limit. Though not required,
-            //       it is good programming practice. Since we are summing the dice, we can multiple
+            //       it is good programming practice. Since we are summing the dice, we can multiply
             //       by 2. Though, any other mathematic operation could change this.
             int[] tally = new int[(((upper * 2) - 1) - offset)];
             
